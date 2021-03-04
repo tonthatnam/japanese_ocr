@@ -1,0 +1,49 @@
+#https://forums.ubuntulinux.jp/viewtopic.php?id=20058&fbclid=IwAR25Yacwc7domUth8imBEphBBV4PGKy5Zhgl8RZ7aDR35zDs3img3AwHCmo
+Noto :
+  fonts-noto (メタパッケージ)
+  fonts-noto-cjk, fonts-noto-cjk-extra
+
+IPAフォント :
+  fonts-ipafont (メタパッケージ)
+  fonts-ipafont-gothic, fonts-ipafont-mincho
+  fonts-ipafont-nonfree-jisx0208, fonts-ipafont-nonfree-uigothic
+
+IPAexフォント :
+  fonts-ipaexfont (メタパッケージ)
+  fonts-ipaexfont-gothic, fonts-ipaexfont-mincho
+
+Takaoフォント :
+  fonts-takao (メタパッケージ)
+  fonts-takao-gothic, fonts-takao-mincho, fonts-takao-pgothic
+
+花園フォント : fonts-hanazono
+梅フォント : fonts-horai-umefont
+Komatuna : fonts-komatuna
+小夏 : fonts-konatu
+MigMixフォント : fonts-migmix
+モトヤLシーダ3等幅 : fonts-motoya-l-cedar
+モトヤLマルベリ3等幅 : fonts-motoya-l-maruberi
+M+ FONTS : fonts-mplus
+さわらびゴシック : fonts-sawarabi-gothic
+さわらび明朝 : fonts-sawarabi-mincho
+UmePlus : fonts-umeplus
+VLゴシック : fonts-vlgothic
+出島明朝フォント : fonts-dejima-mincho
+美咲フォント : fonts-misaki
+モナーフォント : fonts-mona
+Monapo : fonts-monapo
+Oradano明朝GSRRフォント : fonts-oradano-mincho-gsrr
+
+[手書き(or手書き風)フォント]
+きろ字 : fonts-kiloji
+みかちゃんフォント : fonts-mikachan
+瀬戸フォント : fonts-seto
+Y.OzFont :
+  fonts-yozvox-yozfont (メタパッケージ)
+  fonts-yozvox-yozfont-antique, fonts-yozvox-yozfont-cute, fonts-yozvox-yozfont-edu,
+  fonts-yozvox-yozfont-new-kana, fonts-yozvox-yozfont-standard-kana
+
+[毛筆フォント]
+青柳衡山フォントT : fonts-aoyagi-kouzan-t
+青柳疎石フォント : fonts-aoyagi-soseki
+衡山毛筆フォント : fonts-kouzan-mouhitsu
