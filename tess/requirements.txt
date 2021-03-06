@@ -1,0 +1,4 @@
+pillow
+temp
+imutils
+numpy
