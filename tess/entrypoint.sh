@@ -7,7 +7,7 @@ wget https://github.com/tesseract-ocr/tessdata_best/raw/master/jpn.traineddata -
 wget https://github.com/tesseract-ocr/tessdata_best/raw/master/jpn_vert.traineddata -P $TESSDATA_PREFIX
 #change jpn_best to foramat for training LSTM
 combine_tessdata -e $TESSDATA_PREFIX/jpn_best.traineddata jpn_best.lstm
-pwd
-ls
+#pwd
+#ls
 #tesseract --list-langs
-tesseract -l jpn_best tests/test1.png stdout
+#tesseract -l jpn_best tests/test1.png stdout
