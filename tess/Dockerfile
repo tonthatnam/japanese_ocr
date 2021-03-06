@@ -9,6 +9,7 @@ RUN mkdir ~/tess && cd ~/tess
 WORKDIR /tess
 COPY ./requirements.txt /tess
 COPY ./entrypoint.sh /tess
-#COPY . /tess
+COPY . /tess
+
 #RUN pip install -r requirements.txt
-#ENTRYPOINT ["/tess/entrypoint.sh"]
+ENTRYPOINT ["/tess/entrypoint.sh"]
