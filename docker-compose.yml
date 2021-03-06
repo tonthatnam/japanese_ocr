@@ -3,6 +3,6 @@ services:
   tesseract:
     build: ./tess
     volumes:
-      - ./tess/:/tess
+      - ./tess/:/workspace
     ports:
       - "8889:8888"
