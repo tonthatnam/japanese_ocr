@@ -2,3 +2,6 @@ pillow
 temp
 imutils
 numpy
+scikit-build
+cmake
+opencv-python
