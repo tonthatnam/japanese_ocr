@@ -54,8 +54,8 @@ def add_margin(file_path, top, right, bottom, left, color):
 
 def process_text(file_path):
     image = cv2.imread(file_path)
-    height = img.shape[0]
-    width = img.shape[1]
+    height = image.shape[0]
+    width = image.shape[1]
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     blurred = cv2.bilateralFilter(gray, 25, 15, 15)
     thresh = cv2.threshold(blurred, 90, 255, cv2.THRESH_BINARY)[1]
