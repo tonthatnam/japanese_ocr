@@ -22,7 +22,7 @@ Fine-tuning a pre-trained model of Japanese Tesseract to recognize auxiliary sig
 #### Clone repository
  ```console
  git clone https://github.com/tonthatnam/japanese_ocr.git
- cd 
+ cd japanese_ocr
 ```
 ## Model
 #### Download source code for tesstrain.sh
