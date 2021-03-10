@@ -27,13 +27,12 @@ def run(file_path):
             temp_filename = set_image_dpi_ppi(temp_filename)
             temp_filename = process_text(temp_filename)
             temp_filename = set_image_dpi_ppi(temp_filename)
-            #crop_text_region_img = Image.open(temp_filename)
             args = ["tesseract", "-l", "katakana_15000", temp_filename, "stdout"]
-            p1 = subprocess.Popen(args, stdout=subprocess.PIPE) # 出力先にパイプ
-            rt = p1.communicate()[0].decode().strip().split('\n') # stdout取得]
+            p1 = subprocess.Popen(args, stdout=subprocess.PIPE)
+            rt = p1.communicate()[0].decode().strip().split('\n')
             if rt != ['']:
-                print("not null")
+                #print("not null")
                 dection_text = rt + dection_text
-            else:
-                print("null")
+            #else:
+                #print("null")
         return dection_text
