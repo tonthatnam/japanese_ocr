@@ -19,7 +19,7 @@ def set_text_region(file_path):
     img = cv2.imread(file_path)
     height = img.shape[0]
     width = img.shape[1]
-    
+
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     sobel = cv2.Sobel(gray, cv2.CV_8U, 1, 0, ksize=3)
     ret, binary = cv2.threshold(sobel, 0, 255, cv2.THRESH_OTSU + cv2.THRESH_BINARY)
@@ -35,7 +35,6 @@ def set_text_region(file_path):
     for i in range(len(contours)):
         cnt = contours[i]
         area = cv2.contourArea(cnt)
-        print(int(height*width/6))
         if (area < height*width/6):
             continue
         rect = cv2.minAreaRect(cnt)
@@ -63,8 +62,6 @@ def set_sign_board_region(file_path):
         epsilon = 0.02 * cv2.arcLength(c, True)
         c = cv2.approxPolyDP(c, epsilon, True)
         area = cv2.contourArea(c)
-        print(height, width)
-        print(height*width)
         if area < int(height*width/3):
             continue
         x,y,w,h = cv2.boundingRect(c)
