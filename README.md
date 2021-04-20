@@ -1,6 +1,6 @@
 ![apm](https://img.shields.io/apm/l/vim-mode.svg) 
 
-Create a auxiliary sign recognition REST API by using technologies below
+Create a auxiliary sign detection, and recognition REST API by using technologies below
  
  * Tesseract
  * Django
